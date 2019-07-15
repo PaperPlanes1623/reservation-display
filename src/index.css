@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.noMatch {
+  margin-top: 50px;
+}
+
+.carouselTitle {
+  color: white;
+  font-size: 4em;
+  position: relative;
+  bottom: 550x;
+  z-index: 5;
+  padding-bottom: 600px;
+}
+
+.carouselTitle2 {
+  color: white;
+  font-size: 4em;
+  position: relative;
+  bottom: 600px;
+  z-index: 4;
+}
+
+.carouselSubtTitle {
+  color: white;
+  font-size: 2em;
+  position: relative;
+  bottom: 500px;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.navbar_item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white !important;
+}
+
+.navbar_item a:hover {
+  color: skyblue !important;
+}
+
+*/
+/* 
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: right;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: skyblue;
+} */
+
+.white a{
+  color: white;
+}
+
+.white a:hover {
+  color: skyblue;
+}
+
+
+.footerList {
+  padding-top: 20px !important;
+}
+
+.footerList a{
+  color: white !important;
+}
+
+.footerList a:hover {
+  color: skyblue !important;
+}
+
+
+.section {
+ display: flex;
+ flex-direction: column;
+ /* align-items: center; */
+ justify-content: center;
+ /* text-align: center; */
+ width: 100%;
+ height: 100vh;}
+ /* scroll-snap-align: start; */
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  background-color: #F5F5F5;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.gold-label {
+  color: #E3CD7F;
+  text-transform: uppercase;
+}
+
+#adult {
+  width: 50px;
+}
+
+#child {
+  width: 50px;
+}
+
+.button {
+  background-color: #E3CD7F;
+  color: white;
+  padding: 10px 10px;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.label-div {
+  text-transform: uppercase;
+}
+
+/* .react-day-picker_tile--active {
+  background: #9c9736b8 !important; 
+}
+
+.react-day-picker_tile--hasActive {
+  background: #9c973685 !important;
+} */
+
+.Selectable .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #9c9736b8;
+}
+.Selectable .DayPicker-Day {
+  border-radius: 0 !important;
+}
+.Selectable .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.Selectable .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #9c9736b8;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #9c9736b8;
+}
+
+.topnav a:visited {
+  color: #9c9736b8;
+}
+
+.topnav a:link {
+  color: black;
+}
+
+.roomh1 {
+  text-align:center;
+  text-transform: uppercase;
+}
+
+.cabin {
+  padding: .5em;
+}
+
+.res {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.confirmh1 {
+  text-align:center;
+  text-transform: uppercase;
+}
